@@ -35,7 +35,7 @@ crash - https://data.cityofchicago.org/resource/85ca-t3if.csv
 * `WORK_ZONE_I` -	Whether the crash occurred in an active work zone
 * `WORK_ZONE_TYPE` -	The type of work zone, if any
 * `WORKERS_PRESENT_I` -	Whether construction workers were present in an active work zone at crash location
-* `NUM_UNITS` -	Number of units involved in the crash. A unit can be a motor vehicle, a pedestrian, a bicyclist, or another non-passenger roadway user. 
+* `NUM_UNITS` -	Number of units involved in the crash. A unit can be a motor vehicle, a pedestrian, a bicyclist, or another non-passenger roadway user.
 * `MOST_SEVERE_INJURY`-Most severe injury sustained by any person involved in the crash
 * `INJURIES_TOTAL` -	Total persons sustaining fatal, incapacitating, non-incapacitating, and possible injuries as determined by the reporting officer
 * `INJURIES_FATAL` -Total persons sustaining fatal injuries in the crash
@@ -53,7 +53,7 @@ crash - https://data.cityofchicago.org/resource/85ca-t3if.csv
 
 
 
-vehicle - https://data.cityofchicago.org/resource/68nd-jvt3.csv
+person - https://data.cityofchicago.org/resource/68nd-jvt3.csv
 
 
 * `PERSON_ID` -	A unique identifier for each person record. IDs starting with P indicate passengers. IDs starting with O indicate a person who was not a passenger in the vehicle (e.g., driver, pedestrian, cyclist, etc.).
@@ -88,28 +88,31 @@ vehicle - https://data.cityofchicago.org/resource/68nd-jvt3.csv
 * `CELL_PHONE_USE` -	Whether person was/was not using cellphone at the time of the crash, as determined by the reporting officer
 
 
-person - https://data.cityofchicago.org/resource/u6pd-qa9d.csv
-* `crash_unit_id` - A unique identifier for each vehicle record. (continuous)
-* `crash_record_id` - This number can be used to link to the same crash in the Crashes and People datasets. This number also serves as a unique ID in the Crashes dataset. (id)
-* `rd_no` - Chicago Police Department report number. For privacy reasons, this column is blank for recent crashes.
-* `crash_date` - Date and time of crash as entered by the reporting officer. (datetime)
-* `unit_no` - A unique ID for each unit within a specific crash report. (id)
-* `unit_type` - The type of unit. (continuous)
-* `num_passengers` - Number of passengers in the vehicle. The driver is not included. More information on passengers is in the People dataset. (int)
-* `vehicle_id` - ()
-* `cmrc_veh_i` -
-* `make` - The make (brand) of the vehicle, if relevant. (categorical)
-* `model` - The model of the vehicle, if relevant. (categorical)
-* `lic_plate_state` - The state issuing the license plate of the vehicle, if relevant. (categorical)
-* `vahicle_year` - The model year of the vehicle, if relevant. (datetime)
-* `vahicle_defect` - vahicle defect (categorical)
-* `vehicle_type` - The type of vehicle, if relevant (categorical)
-* `vehicle_use` - The normal use of the vehicle, if relevant. (categorical)
-* `travel_direction` - he direction in which the unit was traveling prior to the crash, as determined by the reporting officer. (categorical)
-* `maneuver` - The action the unit was taking prior to the crash, as determined by the reporting officer.(categorical)
-* `towed_id` - Indicator of whether the vehicle was towed.(categorical)
-* `fire_i` -
-* `occupant_cnt` - The number of people in the unit, as determined by the reporting officer.(numerical)
-* `exceed_speed_limit_i` - Indicator of whether the unit was speeding, as determined by the reporting officer.(categorical)
-* `towed_by` - Entity that towed the unit, if relevant.(categorical)
+vahicle - https://data.cityofchicago.org/resource/68nd-jvt3.csv
+* `CRASH_UNIT_ID` - A unique identifier for each vehicle record. (continuous)
+* `CRASH_RECORD_ID` - This number can be used to link to the same crash in the Crashes and People datasets. This number also serves as a unique ID in the Crashes dataset. (id)
+* `RD_NO` - Chicago Police Department report number. For privacy reasons, this column is blank for recent crashes.
+* `CRASH_DATE` - Date and time of crash as entered by the reporting officer. (datetime)
+* `UNIT_NO` - A unique ID for each unit within a specific crash report. (id)
+* `UNIT_TYPE` - The type of unit. (continuous)
+* `NUM_PASSENGER` - Number of passengers in the vehicle. The driver is not included. More information on passengers is in the People dataset. (int)
+* `VEHICLE_ID` - ()
+* `CMRC_VEH_I` -
+* `MAKE` - The make (brand) of the vehicle, if relevant. (categorical)
+* `MODEL` - The model of the vehicle, if relevant. (categorical)
+* `LIC_PLATE_STATE` - The state issuing the license plate of the vehicle, if relevant. (categorical)
+* `VEHICLE_YEAR` - The model year of the vehicle, if relevant. (datetime)
+* `VEHICLE_DEFECT` - vahicle defect (categorical)
+* `VEHICLE_TYPE` - The type of vehicle, if relevant (categorical)
+* `VEHICLE_USE` - The normal use of the vehicle, if relevant. (categorical)
+* `TRAVEL_DIRECTION` - he direction in which the unit was traveling prior to the crash, as determined by the reporting officer. (categorical)
+* `MANEUVER` - The action the unit was taking prior to the crash, as determined by the reporting officer.(categorical)
+* `TOWED_I` - Indicator of whether the vehicle was towed.(categorical)
+* `FIRE_I` -
+* `OCCUPANT_CNT` - The number of people in the unit, as determined by the reporting officer.(numerical)
+* `EXCEED_SPEED_LIMIT_I` - Indicator of whether the unit was speeding, as determined by the reporting officer.(categorical)
+* `TOWED_BY` - Entity that towed the unit, if relevant.(categorical)
+* `TOWED_TO` - Location to which the unit was towed, if relevant
+* `FIRST_CONTACT_POINT` - where the vehicle was hit.
+* 
 
