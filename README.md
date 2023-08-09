@@ -125,24 +125,11 @@ We perfommed the following data cleaning processes:
 What are the significant factors influencing the severity of traffic crashes, and can they be used to predict the severity level (e.g., minor, moderate, severe)?
 
 Prediction and Evaluation: We Predict outcomes on the test set and evaluates the model's performance using confusion matrix and classification report.
-Confusion Matrix:
- [[ 24   0   0   0]
- [  1 219   2   0]
- [  0  17  90   2]
- [  0   5  11   9]]
 
-Classification Report:
-                           precision    recall  f1-score   support
-
-   INCAPACITATING INJURY       0.96      1.00      0.98        24
- NO INDICATION OF INJURY       0.91      0.99      0.95       222
-NONINCAPACITATING INJURY       0.87      0.83      0.85       109
-   REPORTED, NOT EVIDENT       0.82      0.36      0.50        25
-
-                accuracy                           0.90       380
+accuracy                           0.90       380
                macro avg       0.89      0.79      0.82       380
             weighted avg       0.90      0.90      0.89       380
-
+            
 Overall, the model appears to perform well, particularly in identifying "INCAPACITATING INJURY" cases. However, it shows lower recall for the "REPORTED, NOT EVIDENT" class, indicating potential room for improvement in identifying such cases. 
 
 #### Research Question:
