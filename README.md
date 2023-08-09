@@ -126,10 +126,8 @@ What are the significant factors influencing the severity of traffic crashes, an
 
 Prediction and Evaluation: We Predict outcomes on the test set and evaluates the model's performance using confusion matrix and classification report.
 
-accuracy                           0.90       380
-               macro avg       0.89      0.79      0.82       380
-            weighted avg       0.90      0.90      0.89       380
-            
+The model achieved an accuracy of approximately 90%. The classification report provides a detailed breakdown of performance for each class, including precision, recall , and F1-score . The weighted average F1-score gives an overall measure of the model's performance across all classes.
+
 Overall, the model appears to perform well, particularly in identifying "INCAPACITATING INJURY" cases. However, it shows lower recall for the "REPORTED, NOT EVIDENT" class, indicating potential room for improvement in identifying such cases. 
 
 #### Research Question:
