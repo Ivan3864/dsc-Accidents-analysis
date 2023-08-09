@@ -44,7 +44,7 @@ Some of the columns found in the dataset are:
 
 * CRASH_TYPE:A general severity classification for the crash. Can be either Injury and/or Tow Due to Crash or No Injury / Drive Away
 
-The full description of the columns can be found here or the columns_desc.txt file.
+The full description of the columns can be found in the data_description.md file.
 
 Insights:When the weather is clear throughout the day, accidents tend to occur more frequently.
 
@@ -62,7 +62,7 @@ Some of the columns found in the dataset are:
 
 * EXCEED_SPEED_LIMIT_I:Indicator of whether the unit was speeding, as determined by the reporting officer
 
-The full description of the columns can be found here or the columns_desc.txt file.
+The full description of the columns can be found in the data_description.md file.
 
 Insights: 
 Passanger vehicles used for personal use are more prone to accidents.We can also see that toyota and chevrolet makes are leading in number of accidents with 118 and 114 respectfully.
@@ -81,7 +81,7 @@ Some of the columns found in the dataset are:
 
 * AGE: Age of person involved in crash
 
-The full description of the columns can be found here or the columns_desc.txt file.
+The full description of the columns can be found in the data_description.mdt file.
 
 Insights:
 Drivers are more prone to be affected with the accidents with 731 cases.
