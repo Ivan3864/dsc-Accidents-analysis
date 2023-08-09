@@ -1,6 +1,6 @@
 # PROJECT TITLE:EXPLORING CRASH DATA AND PREDICTING SEVERITY
 
-![Alt text](<How to respond at an accident scene.jpeg>)
+![Alt text](<images/How to respond at an accident scene.jpeg>)
 
 ## INTRODUCTION
 
@@ -111,12 +111,12 @@ We perfommed the following data cleaning processes:
 
 * Univariate Analysis
 
-![Alt text](image.png)
+![Alt text](images/image.png)
 
 
 * Multivariate Analysis
 
-![Alt text](image-1.png)
+![Alt text](images/image-1.png)
 
 
 # MODELING
@@ -135,7 +135,7 @@ Effectiveness of Safety Equipment:
 
 Research Question: What is the impact of safety equipment usage (e.g., seatbelts, airbags) on the occurrence and outcomes of crashes, and can we quantify their effectiveness in reducing injuries?
 
-![Alt text](image-2.png)
+![Alt text](images/image-2.png)
 
 The model had the following scores:
 RMSE: 0.33
@@ -149,7 +149,7 @@ F1-Score: 0.89
 Geographic Hotspots and Prevention Strategies:<br>
 Research Question: Can we identify geographic hotspots with higher crash frequencies, and what targeted prevention strategies (e.g., improved signage, traffic control) can be recommended
 
-![Alt text](image-3.png)
+![Alt text](images/image-3.png)
 
 The model had the following scores:
 RMSE: 0.58
