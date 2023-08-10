@@ -151,7 +151,7 @@ F1-Score: 0.89
 Geographic Hotspots and Prevention Strategies:<br>
 Research Question: Can we identify geographic hotspots with higher crash frequencies, and what targeted prevention strategies (e.g., improved signage, traffic control) can be recommended
 
-![Alt text](images/image-3.png)
+![Alt text](images/image-4.png)
 
 The model had the following scores:
 RMSE: 0.58
@@ -160,10 +160,21 @@ Precision: 0.72
 Accuracy: 0.67
 F1-Score: 0.66
 
+# Conclusions
 
+1. The predictive model demonstrated a high accuracy rate in determining accident severity, particularly for cases involving incapacitating injuries. There is room for further improvement, especially in identifying cases with reported but not evident injuries.
 
+2. Geographic analysis revealed areas with higher crash frequencies, suggesting targeted interventions like enhanced traffic enforcement and infrastructure improvements. The model predicted that areas without traffic control devices recorded injuries as compared to areas with traffic control devices. 
 
+3. Road safety In Chicago Pd is an ongoing concern that requires continuous monitoring and improvement of strategies based on the data and changing circumstances.
 
+# Recommendations
 
+Drawing upon the observations and instances mentioned above, we have the opportunity to formulate the subsequent set of recommendations:
 
-
+ 1. Regular Monitoring and Timely Maintenance of Road Surface Conditions:
+        It is strongly advised to establish a systematic and vigilant approach to consistently monitor and proactively maintain the condition of road surfaces. Swiftly addressing issues such as potholes, cracks, and uneven surfaces is of paramount importance to ensure the safety and comfort of motorists and pedestrians. 
+ 2. Fostering Collaboration with the Automotive Industry for Enhanced Vehicle Stability:
+        To synergize advancements in road safety and automotive technology, a collaborative partnership between the transportation sector and the automotive industry is highly recommended. By jointly developing cutting-edge technologies that enhance vehicle stability, such as adaptive suspension systems and advanced driver assistance features, the collective efforts can yield remarkable improvements in overall road safety.
+ 3. Developing Weather-Responsive and Adaptive Road Infrastructure:
+       In order to effectively mitigate the impact of changing weather conditions on road safety and durability, it is recommended to embark on the development of road infrastructure that demonstrates a high degree of responsiveness to varying climatic factors.         
